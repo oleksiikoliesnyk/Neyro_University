@@ -19,7 +19,7 @@ def go_forward(inp):
 
     sum = np.dot(W2, out)
     y = f(sum)
-    return (y, out)
+    return y, out
 
 
 def train(epoch):
