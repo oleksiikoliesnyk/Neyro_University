@@ -41,8 +41,8 @@ def log_result(house, rock, attr):
 
 
 def main():
-    house = 1
-    rock = 0
+    house = 0.7
+    rock = 0.5
     attr = 1
     log_result(house=house,
                rock=rock,
